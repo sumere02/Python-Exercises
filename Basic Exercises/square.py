@@ -1,0 +1,10 @@
+print("Root Finder\n")
+print("***********\n")
+print("Equation: ax^2 + bx + c\n")
+a = int(input("A: "))
+b = int(input("B: "))
+c = int(input ("C: "))
+delta = b**2-4*a*c
+root_1 = (-b + delta**0.5)/(2*a)
+root_2 = (-b - delta**0.5)/(2*a)
+print("Root 1: ",root_1,"\nRoot 2: ",root_2)
